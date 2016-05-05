@@ -1,4 +1,19 @@
 <?php
+session_start();
+include '/var/www/html/php/includes/dbconnect.php';
+if(isset($_SESSION['user'])!="")
+{
+    $userId = $_SESSION['user'];
+    $query = "SELECT user_name FROM users WHERE user_id = '$userId';";
+    $result = mysql_query($query);
+    $row = mysql_fetch_assoc ($result);
+    $userName = $row['user_name'];
+    $text = 'Welcome back '.$userName.'!';
+    $loginText = $text;
+}
+else{
+    $loginText = 'Login';
+}
 echo '
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +41,7 @@ echo '
     <![endif]-->
     <style>  
     body {
-    padding-top: 40px;
+        padding-top: 50px;
     }
     </style>
 </head>
@@ -44,24 +59,24 @@ echo '
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php">Heroic Games</a>
+            <a class="navbar-brand" href="/index.php">Heroic Games</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="#">About</a>
+                    <a href="/php/about/about.php">About</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="/php/services/services.php">Services</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contact</a>
+                    <a href="php/contact/contact.php">Contact us</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="login.php">Login</a></li>
-                <li><a href="register.php">Register</a></li>
+                <li><a href="/php/account/login.php">'.$loginText.'</a></li>
+                <li><a href="/php/account/register.php">Register</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

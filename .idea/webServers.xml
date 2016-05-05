@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3ce4482c-3d70-417f-9630-9cfd9c6998fe" name="live" url="http://107.170.12.246/index.php">
+        <fileTransfer host="107.170.12.246" port="22" rootFolder="/var/www/html" accessType="SFTP" username="markmarin">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

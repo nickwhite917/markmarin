@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include_once 'dbconnect.php';
+    include '/var/www/html/php/includes/dbconnect.php';
 ?>
 
 <?php
@@ -98,6 +98,7 @@ else{
     if ($allowedToReview > 0){
         echo '
         <div class="row">
+        <div class="col-md-12">
             <div class="col-md-6">
                 <form class="form-horizontal" method="post">
                     <fieldset>
@@ -119,6 +120,7 @@ else{
                     <input type="hidden" name="game_id" value="'.$game_id.'" />
                 </form>
             </div>
+        </div>
         </div>
         </div>
     ';
