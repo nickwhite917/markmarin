@@ -15,10 +15,10 @@ $userRow=mysql_fetch_array($res);
 	<div class="col-md-12">
 		<h1>Welcome to your personal page <?php echo $userRow['user_name'];?></h1>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-12">
 		<?php include('partials/myReviews.php'); ?>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-12">
 		<?php include('partials/otherGames.php'); ?>
 	</div>
 </div>

@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afd6706e-7005-4cfd-ad46-4d4d7fdf3d8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/about/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/error_reporting/showErrors.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/services/services.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/user/partials/myReviews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/user/partials/otherGames.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dbTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/frontPageGames.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/php/contact/contact.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dbconnect.php" afterPath="$PROJECT_DIR$/php/includes/dbconnect.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/home.php" afterPath="$PROJECT_DIR$/php/user/home.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/php/account/login.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/logout.php" afterPath="$PROJECT_DIR$/php/account/logout.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/php/account/register.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/review.php" afterPath="$PROJECT_DIR$/php/reviews/review.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/site_custom.css" afterPath="$PROJECT_DIR$/css/site_custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/includes/footer.php" afterPath="$PROJECT_DIR$/php/includes/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/includes/header.php" afterPath="$PROJECT_DIR$/php/includes/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/user/home.php" afterPath="$PROJECT_DIR$/php/user/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/user/partials/myReviews.php" afterPath="$PROJECT_DIR$/php/user/partials/myReviews.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/user/partials/otherGames.php" afterPath="$PROJECT_DIR$/php/user/partials/otherGames.php" />
     </list>
     <ignored path="markmarin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,12 +80,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/about/about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="otherGames.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/user/partials/otherGames.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+              <folding>
+                <marker date="1462470067121" expanded="true" signature="169:551" placeholder="SELECT g.tit... games" />
+                <marker date="1462470067121" expanded="true" signature="323:549" placeholder="SELECT * FRO... reviews" />
+                <marker date="1462470067121" expanded="true" signature="549:551" placeholder="SELECT games... reviews" />
+                <marker date="1462470067121" expanded="true" signature="840:889" placeholder="..." />
+                <marker date="1462470067121" expanded="true" signature="951:1121" placeholder="..." />
+                <marker date="1462470067121" expanded="true" signature="994:1098" placeholder="..." />
+                <marker date="1462470067121" expanded="true" signature="1162:1248" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myReviews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/user/partials/myReviews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <marker date="1462470126748" expanded="true" signature="175:376" placeholder="SELECT * FRO... reviews" />
+                <marker date="1462470126748" expanded="true" signature="659:700" placeholder="..." />
+                <marker date="1462470126748" expanded="true" signature="762:932" placeholder="..." />
+                <marker date="1462470126748" expanded="true" signature="805:909" placeholder="..." />
+                <marker date="1462470126748" expanded="true" signature="973:1149" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/user/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+              <folding>
+                <marker date="1462470147892" expanded="true" signature="161:195" placeholder="SELECT * FRO... users" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,16 +189,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showErrors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/error_reporting/showErrors.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/contact/contact.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -194,12 +214,9 @@
         <option value="$PROJECT_DIR$/frontPageGames.php" />
         <option value="$PROJECT_DIR$/css/site_custom.css" />
         <option value="$PROJECT_DIR$/php/error_reporting/showErrors.php" />
-        <option value="$PROJECT_DIR$/php/user/partials/otherGames.php" />
         <option value="$PROJECT_DIR$/php/includes/dbconnect.php" />
-        <option value="$PROJECT_DIR$/php/user/partials/myReviews.php" />
         <option value="$PROJECT_DIR$/php/account/login.php" />
         <option value="$PROJECT_DIR$/php/account/register.php" />
-        <option value="$PROJECT_DIR$/php/user/home.php" />
         <option value="$PROJECT_DIR$/php/reviews/review.php" />
         <option value="$PROJECT_DIR$/php/contact/contact.php" />
         <option value="$PROJECT_DIR$/php/services/services.php" />
@@ -207,6 +224,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/includes/header.php" />
         <option value="$PROJECT_DIR$/php/about/about.php" />
+        <option value="$PROJECT_DIR$/php/user/partials/otherGames.php" />
+        <option value="$PROJECT_DIR$/php/user/partials/myReviews.php" />
+        <option value="$PROJECT_DIR$/php/user/home.php" />
       </list>
     </option>
   </component>
@@ -515,16 +535,16 @@
       <option name="presentableId" value="Default" />
       <updated>1462450813135</updated>
       <workItem from="1462450819646" duration="2320000" />
-      <workItem from="1462457762258" duration="5985000" />
+      <workItem from="1462457762258" duration="7031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8305000" />
+    <option name="totallyTimeSpent" value="9351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="209" y="127" width="1400" height="844" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -536,7 +556,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1782313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1782313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -625,14 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/user/partials/otherGames.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/account/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -660,36 +672,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/user/partials/myReviews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <marker date="1462462224217" expanded="true" signature="175:376" placeholder="SELECT * FRO... reviews" />
-            <marker date="1462462224217" expanded="true" signature="659:700" placeholder="..." />
-            <marker date="1462462224217" expanded="true" signature="762:932" placeholder="..." />
-            <marker date="1462462224217" expanded="true" signature="805:909" placeholder="..." />
-            <marker date="1462462224217" expanded="true" signature="973:1098" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
           <folding>
             <marker date="1462467622412" expanded="true" signature="367:440" placeholder="SELECT user_... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/user/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <marker date="1462468010215" expanded="true" signature="161:195" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -802,9 +790,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/about/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/user/partials/myReviews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <marker date="1462470126748" expanded="true" signature="175:376" placeholder="SELECT * FRO... reviews" />
+            <marker date="1462470126748" expanded="true" signature="659:700" placeholder="..." />
+            <marker date="1462470126748" expanded="true" signature="762:932" placeholder="..." />
+            <marker date="1462470126748" expanded="true" signature="805:909" placeholder="..." />
+            <marker date="1462470126748" expanded="true" signature="973:1149" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/user/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <marker date="1462470147892" expanded="true" signature="161:195" placeholder="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/user/partials/otherGames.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding>
+            <marker date="1462470067121" expanded="true" signature="169:551" placeholder="SELECT g.tit... games" />
+            <marker date="1462470067121" expanded="true" signature="323:549" placeholder="SELECT * FRO... reviews" />
+            <marker date="1462470067121" expanded="true" signature="549:551" placeholder="SELECT games... reviews" />
+            <marker date="1462470067121" expanded="true" signature="840:889" placeholder="..." />
+            <marker date="1462470067121" expanded="true" signature="951:1121" placeholder="..." />
+            <marker date="1462470067121" expanded="true" signature="994:1098" placeholder="..." />
+            <marker date="1462470067121" expanded="true" signature="1162:1248" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

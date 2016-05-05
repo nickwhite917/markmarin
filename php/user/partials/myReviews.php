@@ -32,7 +32,8 @@ if(isset($_SESSION['user'])!="")
                     </a>
                 </div>
                 <div class="media-body">
-                    <h4 class="media-heading">'.$row[1].'</h4>
+                    <h3 class="media-heading">'.$row[1].'</h3>
+                    <p class="lead">My Review:</p>
                     <p>'.$row[0].'</p>
                 </div>
             </div>';
