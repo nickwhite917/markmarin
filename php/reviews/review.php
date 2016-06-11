@@ -38,12 +38,14 @@ if(isset($_REQUEST['title'])!="")
         $review = trim($review);
 
 
-        $valid = "SELECT COUNT(*) as 'count' FROM reviews JOIN users on reviews.user_id = users.user_id where reviews.game_id = $game_id;";
+        $valid = "SELECT COUNT(*) as 'count' 
+                  FROM reviews 
+                  JOIN users on reviews.user_id = users.user_id 
+                  where reviews.game_id = $game_id and users.user_id = $userId;";
         $validResult = mysql_query($valid);
+        $numRows = mysql_num_rows($result);
 
-        $alt = mysql_result($validResult,0,"count");
-
-        if($alt < 1){
+        if($numRows < 1){
             $query = "INSERT INTO reviews (game_id, review, user_id) VALUES ('$game_id','$review','$userId')";
             $result = mysql_query($query);
         }

@@ -1,10 +1,7 @@
 <?php
 session_start();
 include '/var/www/html/php/includes/dbconnect.php';
-//if(isset($_SESSION['user'])!="")
-//{
-//	header("Location: home.php");
-//}
+
 if(isset($_POST['btn-login']))
 {
 	$email = mysql_real_escape_string($_POST['email']);
@@ -56,7 +53,7 @@ $games = mysql_query("SELECT title, thumbnail, description, trailer_link, releas
 if (!$games) {
     die('Invalid query: ' . mysql_error());
 }
-echo mysql_errno($games) . ": " . mysql_error($games). "\n";
+
 if (mysql_num_rows($games) < 1) {
 	echo '<h1>'.'No games yet.'.'</h1>';
 }
@@ -70,7 +67,7 @@ else{
 		echo '<p>'.$row[2].'</p>';
         echo '<a href="/php/reviews/review.php?game_id='.$row[5].'&title='.$row[0].'"class="btn btn-primary">View Reviews</a></p>';
 		echo '<p>'.'<a href="'.$row[3].'" class="btn btn-info btn-sm" target="_blank">'.'Watch Trailer</a>';
-		echo '<p> <strong>Released:</strong> '.$row[4].'</p>';
+		echo '<p> <strong>Released </strong> '.$row[4].'</p>';
 		echo '
 					</div>
 			</div>
